@@ -1,0 +1,62 @@
+.horizontally{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.vertically
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.formContainer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 25rem;
+    padding: 2rem 0;
+    border-top: 5px solid rgb(57, 255, 163);
+    border-bottom: 5px solid rgb(57, 255, 163);
+
+}
+
+.formContainer > form label{
+    color: rgb(57, 255, 163);
+    padding: 3px;
+}
+
+
+
+input, textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: unset;
+    padding: 5px;
+    background-color: rgb(202, 202, 202);
+}
+
+.submitBtn{
+    padding: 10px;
+    background-color: rgb(57, 255, 163);
+    color: rgb(15, 15, 15);
+    border: unset;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+
+}

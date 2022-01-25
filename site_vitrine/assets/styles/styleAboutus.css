@@ -1,0 +1,50 @@
+.imgContainer{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 250px;
+    border: 10px solid rgb(44, 221, 168);
+}
+
+.imgContainer > img{
+    height: 250px;
+    width: auto;
+    overflow: hidden;
+}
+
+
+.team
+{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    color: rgb(57, 255, 163);
+}
+
+.horizontally{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.vertically
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+@media (max-width: 950px){
+    .team{
+        flex-direction: column;
+    }
+}

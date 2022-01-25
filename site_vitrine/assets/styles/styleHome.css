@@ -1,0 +1,106 @@
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(57, 255, 163);
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 250px;
+}
+
+h1 {
+  color: rgb(57, 255, 163);
+  text-transform: uppercase;
+}
+
+main p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
+
+.imgContainer {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 250px;
+  border: 10px solid rgb(57, 255, 163);
+}
+
+.imgContainer > img {
+  overflow: hidden;
+}
+
+.horizontally {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+  gap: 10rem;
+}
+
+.horizontally p {
+  width: 500px;
+}
+
+.vertically {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.partners {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  color: rgb(57, 255, 163);
+}
+
+.partners .imgContainer {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+}
+
+.partners img {
+  height: calc(100% - 10px);
+}
+
+.submitBtn{
+    padding: 20px;
+    background-color: rgb(57, 255, 163);
+    color: rgb(15, 15, 15);
+    font-size: 5rem;
+    font-weight: 500;
+    border: unset;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+@media (max-width: 1170px){
+    .horizontally{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .horizontally p {
+        width: auto;
+      }
+
+}
